@@ -1,0 +1,17 @@
+{
+  "name": "happy-feeds",
+  "description": "This project simulates a social posts plattform. It`s use React version 15",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node esbuild-dev.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.4"
+  },
+  "dependencies": {
+    "react": "15.6.2",
+    "react-dom": "15.6.2"
+  }
+}
