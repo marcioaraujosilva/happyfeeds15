@@ -1,0 +1,5 @@
+.feed {
+  background-color: var(--panelColor);
+  border-radius: var(--radiusDefault);
+  min-height: 20.0rem;
+}

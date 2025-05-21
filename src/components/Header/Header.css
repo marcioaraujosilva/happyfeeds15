@@ -1,0 +1,6 @@
+.header {
+  background-color: var(--panelColor);
+  border-radius: var(--radiusDefault);
+  min-height: 6.0rem;
+  margin-bottom: 1.25rem;
+}

@@ -1,0 +1,23 @@
+:root {
+  --panelColor: rgba(255, 255, 255, 0.05);
+  --radiusDefault: 7px; 
+}
+
+.app {
+  background-color: #313139;
+  padding: 1.25rem;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 1.25rem;
+}
+
+@media (max-width: 768px)  {
+  .container {
+    grid-template-columns: 1fr;
+  }  
+}

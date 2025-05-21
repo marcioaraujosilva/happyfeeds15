@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
+import { App } from "./App";
 
-const Hello = () => React.createElement("h1", null, "Hello!");
+
 
 ReactDOM.render(
-  React.createElement(Hello), 
+  React.createElement(App), 
   document.getElementById("root")
 );
